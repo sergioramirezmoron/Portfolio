@@ -202,19 +202,19 @@ main .otrosProyectosContainer .otrosProyectos .proyecto {
   max-width: 40%;
   padding: 2rem 1rem;
 }
-main .otrosProyectosContainer .otrosProyectos .proyecto a {
+main .otrosProyectosContainer .otrosProyectos .proyecto .enlace {
   text-transform: uppercase;
   text-decoration: none;
   color: #d4af37;
   border: 1px solid #d4af37;
   padding: 0.4rem;
 }
-main .otrosProyectosContainer .otrosProyectos .proyecto a:hover {
+main .otrosProyectosContainer .otrosProyectos .proyecto .enlace:hover {
   background-color: #d4af37;
   color: #000;
 }
 main .otrosProyectosContainer .otrosProyectos .proyecto p {
-  padding: 1rem;
+  padding: 2rem;
 }
 main .otrosProyectosContainer .otrosProyectos .proyecto img {
   max-height: 15rem;
@@ -249,18 +249,26 @@ footer .footer {
   flex-direction: column;
   text-align: center;
 }
-footer .footer .contacto {
-  padding-top: 4rem;
-}
-footer .footer .contacto strong {
-  color: #d4af37;
-}
 footer .footer .copy {
   padding: 2rem 0;
 }
 footer .footer .copy p {
   font-size: 0.8rem;
   color: #ccc;
+}
+footer .footer .contenido .contacto {
+  padding-top: 4rem;
+}
+footer .footer .contenido .contacto strong {
+  color: #d4af37;
+}
+footer .footer .contenido .redes i {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 1rem;
+}
+footer .footer .contenido .redes i:hover {
+  color: #4a4a4a;
 }
 
 @media (max-width: 768px) {

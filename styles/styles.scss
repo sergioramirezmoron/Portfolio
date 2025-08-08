@@ -239,7 +239,7 @@ main {
       .proyecto {
         max-width: 40%;
         padding: 2rem 1rem;
-        a {
+        .enlace {
           text-transform: uppercase;
           text-decoration: none;
           color: $secundario;
@@ -251,8 +251,9 @@ main {
             color: $negro;
           }
         }
+
         p {
-          padding: 1rem;
+          padding: 2rem;
         }
 
         img {
@@ -297,18 +298,33 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    .contacto {
-      padding-top: 4rem;
-      strong {
-        color: $secundario;
-      }
-    }
+
     .copy {
       padding: 2rem 0;
 
       p {
         font-size: 0.8rem;
         color: $grisClaro;
+      }
+    }
+
+    .contenido {
+      .contacto {
+        padding-top: 4rem;
+        strong {
+          color: $secundario;
+        }
+      }
+      .redes {
+        i {
+          font-size: 2rem;
+          color: $blanco;
+          margin: 1rem;
+
+          &:hover{
+            color:$grisOscuro;
+          }
+        }
       }
     }
   }
