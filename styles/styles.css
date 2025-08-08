@@ -15,9 +15,29 @@ body h2 {
   color: #d4af37;
   text-transform: uppercase;
 }
-body p {
+body p,
+body li {
   font-family: "Roboto", sans-serif;
   color: #f5f5f5;
+}
+
+.curriculum {
+  position: absolute;
+  padding: 3rem;
+  right: 0;
+}
+.curriculum a {
+  padding: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  border-radius: 16px;
+}
+.curriculum a:hover {
+  background-color: #d4af37;
+  color: #000;
 }
 
 header {

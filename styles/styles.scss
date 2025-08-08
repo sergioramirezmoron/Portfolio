@@ -29,12 +29,33 @@ body {
     text-transform: uppercase;
   }
 
-  p {
+  p,
+  li {
     font-family: $fuente;
     color: $terciario;
   }
 }
 
+//Curriculum
+.curriculum {
+  position: absolute;
+  padding: 3rem;
+  right: 0;
+  a {
+    padding: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $secundario;
+    border: 1px solid $secundario;
+    border-radius: 16px;
+
+    &:hover {
+      background-color: $secundario;
+      color: $negro;
+    }
+  }
+}
 //Header
 header {
   background-color: $primario;
