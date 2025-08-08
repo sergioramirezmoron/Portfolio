@@ -22,22 +22,25 @@ body li {
 }
 
 .curriculum {
-  position: absolute;
-  padding: 3rem;
+  position: fixed;
+  padding: 1.5rem;
   right: 0;
+  z-index: 1000;
 }
 .curriculum a {
   padding: 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #d4af37;
-  border: 1px solid #d4af37;
+  color: #000;
+  border: 2px solid #1a1a1a;
   border-radius: 16px;
+  background-color: #d4af37;
 }
 .curriculum a:hover {
   background-color: #d4af37;
   color: #000;
+  border-color: #ffffff;
 }
 
 header {
