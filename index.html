@@ -4,120 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sergio Ramírez Morón</title>
-    <link rel="stylesheet" href="styles/global.css" />
-    <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <button id="toggle-dark" class="boton-darkmode" title="Modo claro/oscuro">
-      🌙
-    </button>
     <header>
-      <div class="contenedor encabezado-contenido">
-        <img
-          src="resources/sergio.png"
-          alt="Foto de perfil"
-          class="foto-perfil"
-        />
-        <div class="encabezado-texto">
+      <div class="contenedor">
+        <img src="resources/sergio.png" alt="Foto de perfil" />
+        <div>
           <h1>Sergio Ramírez Morón</h1>
           <p>Futuro desarrollador Web y IA | Apasionado por la tecnología</p>
         </div>
-      </div></header>
+      </div>
+    </header>
 
-    <a
-      href="resources/curriculum.pdf"
-      target="_blank"
-      rel="noopener"
-      class="boton-cv"
-      >Currículum</a
-    >
+    <main>
+      <div class="contenedor">
+        <div class="complementario oscuro">
+          <div class="infoYo container">
+            <h2>Sobre mí</h2>
+            <p>
+              Soy un entusiasta de la tecnología desde pequeño. Mi curiosidad
+              por el mundo digital me llevó a estudiar informática. Me gusta
+              aprender constantemente, colaborar con otros y buscar soluciones
+              creativas. Me considero responsable, empático y con muchas ganas
+              de crecer en el mundo del desarrollo web y en un futuro, como
+              desarrollador de Inteligencia Artificial.
+            </p>
+          </div>
+          <div class="imagen">
+            <img src="resources/SobreMi.jpg" alt="img.jpg" />
+          </div>
+        </div>
 
-    <main class="contenedor">
-      <section class="tarjeta vertical">
-        <h2>Sobre mí</h2>
-        <p>
-          Soy un entusiasta de la tecnología desde pequeño. Mi curiosidad por el
-          mundo digital me llevó a estudiar informática. Me gusta aprender
-          constantemente, colaborar con otros y buscar soluciones creativas. Me
-          considero responsable, empático y con muchas ganas de crecer en el
-          mundo del desarrollo web y en un futuro, como desarrollador de
-          Inteligencia Artificial.
-        </p>
-      </section>
-      <section class="tarjeta vertical">
-        <h2>Educación</h2>
-        <ul>
-          <li><strong>Bachillerato Tecnológico</strong> – 2022 - 2024</li>
-          <li>
-            <strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> –
-            2025 - actualidad
-          </li>
-        </ul>
-      </section>
-      <section class="tarjeta vertical">
-        <h2>Experiencia</h2>
-        <ul>
-          <li>
-            <strong
-              >Prácticas del Ciclo Formativo de Grado Superior Desarrollo de
-              Aplicaciones Web en Cívica Software S.L.</strong
-            >
-          </li>
-        </ul>
-      </section>
-      <section class="proyectos-section">
-        <h2 class="proyectos-titulo">Proyectos Destacados</h2>
-        <div class="proyectos-lista">
-          <div class="proyecto-card">
-            <div class="proyecto-titulo">Restaurante Online</div>
-            <div class="proyecto-descripcion">
-              Aplicación web para un restaurante. Incluye panel de
-              administración, menú dinámico y gestión de usuarios.
+        <div class="complementario claro reverse">
+          <div class="infoEducacion container">
+            <h2>Educación</h2>
+            <ul>
+              <li>
+                <p><strong>Bachillerato Tecnológico</strong> | 2022 - 2024</p>
+              </li>
+              <li>
+                <p>
+                  <strong
+                    >Grado Superior en Desarrollo de Aplicaciones Web</strong
+                  >
+                  | 2025 - actualidad
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="imagen reverse">
+            <img src="resources/educacion.jpg" alt="img.jpg" />
+          </div>
+        </div>
+
+        <div class="complementario oscuro">
+          <div class="infoExperiencia container">
+            <h2>Experiencia</h2>
+            <ul>
+              <li>
+                <p>
+                  Prácticas del Ciclo Formativo de Grado Superior Desarrollo de
+                  Aplicaciones Web en Cívica Software S.L.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="imagen">
+            <img src="resources/experiencia.png" alt="img.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor proyectosContainer">
+        <h2>Proyectos Destacados</h2>
+        <div class="proyectos">
+          <div class="proyecto">
+            <div class="nombre-proyecto">
+              <h2>Restaurante Online</h2>
             </div>
-            <div class="proyecto-tecnologias">HTML5, CSS3, PHP, MySQL</div>
-            <div class="proyecto-enlaces">
+            <div class="descripcion-proyecto">
+              <p>
+                Aplicación web para un restaurante. Incluye panel de
+                administración, menú dinámico y gestión de usuarios.
+              </p>
+            </div>
+            <div class="tecnologias-proyecto">
+              <p>HTML5, CSS3, PHP, MySQL</p>
+            </div>
+            <div class="enlaces-proyecto">
               <a
+                class="enlace"
                 href="https://github.com/sergioramirezmoron/PaginaRestaurante1"
-                target="_blank"
-                rel="noopener"
                 >GitHub</a
               >
             </div>
           </div>
-          <div class="proyecto-card">
-            <div class="proyecto-titulo">Clon de Netflix</div>
-            <div class="proyecto-descripcion">Plataforma web inspirada en Netflix, con registro de usuarios y catálogo de películas. Proyecto realizado para practicar maquetación y backend.</div>
-            <div class="proyecto-tecnologias">HTML5, CSS3, PHP, MySQL</div>
-            <div class="proyecto-enlaces"><a href="https://github.com/sergioramirezmoron/copiaNetflix" target="_blank" rel="noopener">GitHub</a></div>
+          <div class="proyecto">
+            <div class="nombre-proyecto">
+              <h2>Clon de Netflix</h2>
+            </div>
+            <div class="descripcion-proyecto">
+              <p>
+                Plataforma web inspirada en Netflix, con registro de usuarios y
+                catálogo de películas. Proyecto realizado para practicar
+                maquetación y backend.
+              </p>
+            </div>
+            <div class="tecnologias-proyecto">
+              <p>HTML5, CSS3, PHP, MySQL</p>
+            </div>
+            <div class="enlaces-proyecto">
+              <a
+                class="enlace"
+                href="https://github.com/sergioramirezmoron/copiaNetflix"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
-        <h2 class="proyectos-titulo">Más Proyectos</h2>
-        <section class="otros-proyectos">
-          <ul class="otros-proyectos-lista">
-            <li>
-              <a href="https://cafe-sergioramirez.netlify.app/" target="_blank" rel="noopener">Café - Landing Page</a>
-              <span class="otros-proyectos-desc">Sitio web para cafetería y diseño atractivo.</span>
-            </li>
-            <li>
-              <a href="https://store-sergioramirez.netlify.app/" target="_blank" rel="noopener">Tienda Online</a>
-              <span class="otros-proyectos-desc">E-commerce simple y catálogo de productos.</span>
-            </li>
-            <li>
-              <a href="https://freelancer-sergioramirez.netlify.app" target="_blank" rel="noopener">Freelancer Portfolio</a>
-              <span class="otros-proyectos-desc">Portfolio para freelancers, servicios y contacto.</span>
-            </li>
-            <li>
-              <a href="https://festival-sergioramirez.netlify.app" target="_blank" rel="noopener">Festival de Música</a>
-              <span class="otros-proyectos-desc">Landing para evento musical, información y programa.</span>
-            </li>
-          </ul>
-        </section>
+      </div>
+
+      <div class="contenedor otrosProyectosContainer">
+        <h2>Más Proyectos</h2>
+
+        <div class="otrosProyectos">
+          <div class="proyecto">
+            <a href="https://contadorsergioramirez.netlify.app/">Contador</a>
+            <p>Contador sencillo con información y contacto.</p>
+          </div>
+          <div class="proyecto">
+            <a href="https://store-sergioramirez.netlify.app/">Tienda Online</a>
+            <p>E-commerce simple y catálogo de productos.</p>
+          </div>
+          <div class="proyecto">
+            <a href="https://temporizadorsergioramirez.netlify.app"
+              >Temporizador</a
+            >
+            <p>Temporizador completamente funcional.</p>
+          </div>
+          <div class="proyecto">
+            <a href="https://festival-sergioramirez.netlify.app"
+              >Festival de Música</a
+            >
+            <p>Página para evento musical, información y programa.</p>
+          </div>
         </div>
-      </section>
-      <section class="contenedor-horizontal">
-        <section class="tarjeta horizontal">
+      </div>
+
+      <div>
+        <div>
           <h2>Tecnologías</h2>
-          <ul class="habilidades">
+          <ul>
             <li>HTML5 (medio)</li>
             <li>CSS3 (medio)</li>
             <li>JavaScript (básico)</li>
@@ -127,10 +165,10 @@
             <li>Podman (básico)</li>
             <li>PHP (básico)</li>
           </ul>
-        </section>
-        <section class="tarjeta horizontal">
+        </div>
+        <div>
           <h2>Habilidades Blandas</h2>
-          <ul class="habilidades-blandas">
+          <ul>
             <li>Trabajo en equipo</li>
             <li>Comunicación efectiva</li>
             <li>Adaptación al cambio</li>
@@ -138,22 +176,17 @@
             <li>Creatividad</li>
             <li>Pensamiento innovador</li>
           </ul>
-        </section>
-      </section>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <div class="contenedor footer-contenido">
-        <div class="footer-contacto">
-          <p>
-            <strong class="footer-contacto-tipo">Correo: </strong
-            >sergioramirezmoron@gmail.com
-          </p>
-          <p>
-            <strong class="footer-contacto-tipo">Teléfono: </strong>640 50 33 10
-          </p>
+      <div>
+        <div>
+          <p><strong>Correo: </strong>sergioramirezmoron@gmail.com</p>
+          <p><strong>Teléfono: </strong>640 50 33 10</p>
         </div>
-        <p>©2025 Sergio Ramírez Morón – Todos los derechos reservados</p>
+        <p>&copy;2025 Sergio Ramírez Morón – Todos los derechos reservados</p>
       </div>
     </footer>
   </body>
