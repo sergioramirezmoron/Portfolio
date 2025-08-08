@@ -128,7 +128,7 @@ main .complementario .infoExperiencia p {
 }
 
 main .proyectosContainer {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background-color: #000;
 }
 main .proyectosContainer .proyectos {
@@ -166,7 +166,7 @@ main .proyectosContainer .proyectos .proyecto .enlaces-proyecto .enlace:hover {
 }
 
 main .otrosProyectosContainer {
-  padding-top: 1rem;
+  padding: 2rem;
   background-color: #1a1a1a;
 }
 main .otrosProyectosContainer .otrosProyectos {
@@ -192,6 +192,52 @@ main .otrosProyectosContainer .otrosProyectos .proyecto a:hover {
 }
 main .otrosProyectosContainer .otrosProyectos .proyecto p {
   padding: 1rem;
+}
+main .otrosProyectosContainer .otrosProyectos .proyecto img {
+  max-height: 15rem;
+  max-width: 15rem;
+  width: 90%;
+}
+
+main .infoExtra {
+  padding: 2rem 2rem;
+  background-color: #000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+}
+main .infoExtra li {
+  list-style: none;
+  color: #ffffff;
+  padding: 0;
+  margin-bottom: 0.4rem;
+}
+main .infoExtra ul {
+  padding: 0;
+}
+
+footer .footer {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer .footer .contacto {
+  padding-top: 4rem;
+}
+footer .footer .contacto strong {
+  color: #d4af37;
+}
+footer .footer .copy {
+  padding: 2rem 0;
+}
+footer .footer .copy p {
+  font-size: 0.8rem;
+  color: #ccc;
 }
 
 @media (max-width: 768px) {
@@ -248,5 +294,20 @@ main .otrosProyectosContainer .otrosProyectos .proyecto p {
   }
   main .proyectosContainer .proyectos .proyecto .descripcion-proyecto {
     padding: 1rem 0;
+  }
+}
+@media (max-width: 768px) {
+  main .infoExtra {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main .infoExtra .habilidades,
+  main .infoExtra .tecnologias {
+    margin: 0;
+    padding-top: 2rem;
+  }
+  main .infoExtra ul {
+    padding: 0;
   }
 }/*# sourceMappingURL=styles.css.map */

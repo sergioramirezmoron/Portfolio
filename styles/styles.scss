@@ -163,7 +163,7 @@ main {
 //Proyectos
 main {
   .proyectosContainer {
-    padding-top: 10rem;
+    padding-top: 5rem;
     background-color: $negro;
     .proyectos {
       display: flex;
@@ -205,7 +205,7 @@ main {
 //Otros proyectos
 main {
   .otrosProyectosContainer {
-    padding-top: 1rem;
+    padding: 2rem;
     background-color: $primario;
     .otrosProyectos {
       display: flex;
@@ -230,6 +230,61 @@ main {
         p {
           padding: 1rem;
         }
+
+        img {
+          max-height: 15rem;
+          max-width: 15rem;
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+//Info Extra
+main {
+  .infoExtra {
+    padding: 2rem 2rem;
+    background-color: $negro;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    li {
+      list-style: none;
+      color: $blanco;
+      padding: 0;
+      margin-bottom: 0.4rem;
+    }
+
+    ul {
+      padding: 0;
+    }
+  }
+}
+
+//Footer
+footer {
+  .footer {
+    background-color: $negro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .contacto {
+      padding-top: 4rem;
+      strong {
+        color: $secundario;
+      }
+    }
+    .copy {
+      padding: 2rem 0;
+
+      p {
+        font-size: 0.8rem;
+        color: $grisClaro;
       }
     }
   }
@@ -303,6 +358,26 @@ main {
             padding: 1rem 0;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    .infoExtra {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .habilidades,
+      .tecnologias {
+        margin: 0;
+        padding-top: 2rem;
+      }
+
+      ul {
+        padding: 0;
       }
     }
   }
